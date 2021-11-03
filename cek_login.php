@@ -19,3 +19,5 @@ else{
 echo "<center>Login gagal! username & password tidak benar<br>";
 echo "<a href=form_login.php><b>ULANGILAGI</b></a></center>";
 }
+mysqli_close($con);
+?>
